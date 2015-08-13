@@ -13,6 +13,7 @@
 		2C4BD1D11B7C643A00BE2551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BD1D01B7C643A00BE2551 /* Images.xcassets */; };
 		2C4BD1D41B7C643A00BE2551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BD1D21B7C643A00BE2551 /* LaunchScreen.xib */; };
 		2C4BD1E01B7C643A00BE2551 /* SliderKnobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BD1DF1B7C643A00BE2551 /* SliderKnobTests.swift */; };
+		2C4BD1EA1B7C655A00BE2551 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BD1E91B7C655A00BE2551 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2C4BD1D91B7C643A00BE2551 /* SliderKnobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderKnobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4BD1DE1B7C643A00BE2551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4BD1DF1B7C643A00BE2551 /* SliderKnobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderKnobTests.swift; sourceTree = "<group>"; };
+		2C4BD1E91B7C655A00BE2551 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2C4BD1C91B7C643A00BE2551 /* AppDelegate.swift */,
 				2C4BD1CB1B7C643A00BE2551 /* ViewController.swift */,
+				2C4BD1E91B7C655A00BE2551 /* RoundButton.swift */,
 				2C4BD1CD1B7C643A00BE2551 /* Main.storyboard */,
 				2C4BD1D01B7C643A00BE2551 /* Images.xcassets */,
 				2C4BD1D21B7C643A00BE2551 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4BD1EA1B7C655A00BE2551 /* RoundButton.swift in Sources */,
 				2C4BD1CC1B7C643A00BE2551 /* ViewController.swift in Sources */,
 				2C4BD1CA1B7C643A00BE2551 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				2C4BD1E51B7C643A00BE2551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C4BD1E61B7C643A00BE2551 /* Build configuration list for PBXNativeTarget "SliderKnobTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2C4BD1E81B7C643A00BE2551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
