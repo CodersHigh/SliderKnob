@@ -17,27 +17,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i8d-yB-Tx0" customClass="RoundView" customModule="SliderKnob" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8d-yB-Tx0" customClass="RoundView" customModule="SliderKnob" customModuleProvider="target">
                                 <rect key="frame" x="16" y="292" width="568" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="9Nm-9y-UsL"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-r2-hge" customClass="CircleView" customModule="SliderKnob" customModuleProvider="target">
                                 <rect key="frame" x="116" y="284" width="32" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="32" id="9oC-Ri-WY7"/>
-                                    <constraint firstAttribute="height" constant="32" id="x5J-76-KMf"/>
+                                    <constraint firstAttribute="width" constant="32" id="Xbs-kt-NGx"/>
+                                    <constraint firstAttribute="height" constant="32" id="ZvQ-H4-wqx"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8BO-3x-ADv"/>
-                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="PeG-r2-hge" secondAttribute="trailing" constant="-132" id="Okn-ea-Rdx"/>
-                            <constraint firstItem="PeG-r2-hge" firstAttribute="centerY" secondItem="i8d-yB-Tx0" secondAttribute="centerY" constant="0.5" id="Zxl-vR-TTT"/>
-                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kxT-um-68h"/>
-                            <constraint firstAttribute="centerX" secondItem="i8d-yB-Tx0" secondAttribute="centerX" id="vZD-hV-mEQ"/>
-                            <constraint firstAttribute="centerY" secondItem="i8d-yB-Tx0" secondAttribute="centerY" id="yvd-6Y-JPI"/>
+                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Dxd-fC-Ktm"/>
+                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="PeG-r2-hge" secondAttribute="trailing" constant="-132" id="Tqm-4x-V8f"/>
+                            <constraint firstAttribute="centerX" secondItem="i8d-yB-Tx0" secondAttribute="centerX" id="UtN-ot-dAC"/>
+                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bCQ-M8-ndH"/>
+                            <constraint firstAttribute="centerY" secondItem="i8d-yB-Tx0" secondAttribute="centerY" id="cTv-N0-FOz"/>
+                            <constraint firstItem="PeG-r2-hge" firstAttribute="centerY" secondItem="i8d-yB-Tx0" secondAttribute="centerY" constant="0.5" id="cdf-qg-rDH"/>
                         </constraints>
                     </view>
                 </viewController>
