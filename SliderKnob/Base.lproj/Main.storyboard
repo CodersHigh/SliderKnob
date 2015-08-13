@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,7 +26,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-r2-hge" customClass="CircleView" customModule="SliderKnob" customModuleProvider="target">
-                                <rect key="frame" x="116" y="284" width="32" height="32"/>
+                                <rect key="frame" x="334" y="284" width="32" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="32" id="Xbs-kt-NGx"/>
@@ -36,7 +37,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="i8d-yB-Tx0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Dxd-fC-Ktm"/>
-                            <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="PeG-r2-hge" secondAttribute="trailing" constant="-132" id="Tqm-4x-V8f"/>
+                            <constraint firstItem="PeG-r2-hge" firstAttribute="centerX" secondItem="i8d-yB-Tx0" secondAttribute="trailing" multiplier="0.6" id="Tqm-4x-V8f"/>
                             <constraint firstAttribute="centerX" secondItem="i8d-yB-Tx0" secondAttribute="centerX" id="UtN-ot-dAC"/>
                             <constraint firstItem="i8d-yB-Tx0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bCQ-M8-ndH"/>
                             <constraint firstAttribute="centerY" secondItem="i8d-yB-Tx0" secondAttribute="centerY" id="cTv-N0-FOz"/>
