@@ -28,7 +28,7 @@ class RoundView: UIView {
         super.layoutSubviews()
         self.layer.cornerRadius = 8
         self.layer.borderWidth = 2
-        self.layer.borderColor = self.tintColor?.CGColor
+        self.layer.borderColor = self.tintColor?.cgColor
         //self.setTitleColor(UIColor.whiteColor(), forState: .Highlighted)
     }
 }
@@ -41,7 +41,7 @@ class CircleView: UIView {
         super.layoutSubviews()
         self.layer.cornerRadius = self.bounds.size.width/2
         self.layer.borderWidth = 2
-        self.layer.borderColor = self.tintColor?.CGColor
+        self.layer.borderColor = self.tintColor?.cgColor
         //self.setTitleColor(UIColor.whiteColor(), forState: .Highlighted)
     }
     

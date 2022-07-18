@@ -12,19 +12,8 @@
 		2C4BD1CF1B7C643A00BE2551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BD1CD1B7C643A00BE2551 /* Main.storyboard */; };
 		2C4BD1D11B7C643A00BE2551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BD1D01B7C643A00BE2551 /* Images.xcassets */; };
 		2C4BD1D41B7C643A00BE2551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BD1D21B7C643A00BE2551 /* LaunchScreen.xib */; };
-		2C4BD1E01B7C643A00BE2551 /* SliderKnobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BD1DF1B7C643A00BE2551 /* SliderKnobTests.swift */; };
 		2C4BD1EA1B7C655A00BE2551 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BD1E91B7C655A00BE2551 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2C4BD1DA1B7C643A00BE2551 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C4BD1BC1B7C643A00BE2551 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C4BD1C31B7C643A00BE2551;
-			remoteInfo = SliderKnob;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C4BD1C41B7C643A00BE2551 /* SliderKnob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderKnob.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,21 +23,11 @@
 		2C4BD1CE1B7C643A00BE2551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4BD1D01B7C643A00BE2551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C4BD1D31B7C643A00BE2551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2C4BD1D91B7C643A00BE2551 /* SliderKnobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderKnobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4BD1DE1B7C643A00BE2551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4BD1DF1B7C643A00BE2551 /* SliderKnobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderKnobTests.swift; sourceTree = "<group>"; };
 		2C4BD1E91B7C655A00BE2551 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C4BD1C11B7C643A00BE2551 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C4BD1D61B7C643A00BE2551 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				2C4BD1C61B7C643A00BE2551 /* SliderKnob */,
-				2C4BD1DC1B7C643A00BE2551 /* SliderKnobTests */,
 				2C4BD1C51B7C643A00BE2551 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				2C4BD1C41B7C643A00BE2551 /* SliderKnob.app */,
-				2C4BD1D91B7C643A00BE2551 /* SliderKnobTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +75,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2C4BD1DC1B7C643A00BE2551 /* SliderKnobTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C4BD1DF1B7C643A00BE2551 /* SliderKnobTests.swift */,
-				2C4BD1DD1B7C643A00BE2551 /* Supporting Files */,
-			);
-			path = SliderKnobTests;
-			sourceTree = "<group>";
-		};
-		2C4BD1DD1B7C643A00BE2551 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C4BD1DE1B7C643A00BE2551 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,24 +95,6 @@
 			productReference = 2C4BD1C41B7C643A00BE2551 /* SliderKnob.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2C4BD1D81B7C643A00BE2551 /* SliderKnobTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C4BD1E61B7C643A00BE2551 /* Build configuration list for PBXNativeTarget "SliderKnobTests" */;
-			buildPhases = (
-				2C4BD1D51B7C643A00BE2551 /* Sources */,
-				2C4BD1D61B7C643A00BE2551 /* Frameworks */,
-				2C4BD1D71B7C643A00BE2551 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2C4BD1DB1B7C643A00BE2551 /* PBXTargetDependency */,
-			);
-			name = SliderKnobTests;
-			productName = SliderKnobTests;
-			productReference = 2C4BD1D91B7C643A00BE2551 /* SliderKnobTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +107,6 @@
 					2C4BD1C31B7C643A00BE2551 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					2C4BD1D81B7C643A00BE2551 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 2C4BD1C31B7C643A00BE2551;
-					};
 				};
 			};
 			buildConfigurationList = 2C4BD1BF1B7C643A00BE2551 /* Build configuration list for PBXProject "SliderKnob" */;
@@ -176,6 +114,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -185,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				2C4BD1C31B7C643A00BE2551 /* SliderKnob */,
-				2C4BD1D81B7C643A00BE2551 /* SliderKnobTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +136,6 @@
 				2C4BD1CF1B7C643A00BE2551 /* Main.storyboard in Resources */,
 				2C4BD1D41B7C643A00BE2551 /* LaunchScreen.xib in Resources */,
 				2C4BD1D11B7C643A00BE2551 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C4BD1D71B7C643A00BE2551 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C4BD1D51B7C643A00BE2551 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C4BD1E01B7C643A00BE2551 /* SliderKnobTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2C4BD1DB1B7C643A00BE2551 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C4BD1C31B7C643A00BE2551 /* SliderKnob */;
-			targetProxy = 2C4BD1DA1B7C643A00BE2551 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C4BD1CD1B7C643A00BE2551 /* Main.storyboard */ = {
@@ -349,6 +264,7 @@
 				INFOPLIST_FILE = SliderKnob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -359,40 +275,7 @@
 				INFOPLIST_FILE = SliderKnob/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2C4BD1E71B7C643A00BE2551 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SliderKnobTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderKnob.app/SliderKnob";
-			};
-			name = Debug;
-		};
-		2C4BD1E81B7C643A00BE2551 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SliderKnobTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderKnob.app/SliderKnob";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -413,15 +296,6 @@
 			buildConfigurations = (
 				2C4BD1E41B7C643A00BE2551 /* Debug */,
 				2C4BD1E51B7C643A00BE2551 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C4BD1E61B7C643A00BE2551 /* Build configuration list for PBXNativeTarget "SliderKnobTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C4BD1E71B7C643A00BE2551 /* Debug */,
-				2C4BD1E81B7C643A00BE2551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
